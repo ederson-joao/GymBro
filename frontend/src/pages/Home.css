@@ -1,0 +1,63 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF6E9;
+    text-align: center;
+  }
+  
+  .message-container {
+    background-color: #1d2055;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+  }
+  
+  .message-container h2 {
+    color: #FFF6E9;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .message-container p {
+    color: #FFF6E9;
+    font-size: 1.2rem;
+  }
+  
+  .button-container {
+    margin-top: 1.25rem;
+  }
+  
+  button {
+    background-color: #e56125;
+    border: none;
+    color: #FFF6E9;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.313rem;
+  }
+  
+  button:hover {
+    background-color: #c9430a;
+  }
+  
+  .progress-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+  }
+  
+  .progress-dots span {
+    width: 0.625rem;
+    height: 0.625rem;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .progress-dots span.active {
+    background-color: #e56125;
+  }
